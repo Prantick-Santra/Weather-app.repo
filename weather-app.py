@@ -17,7 +17,7 @@ def main():
     weather_data = get_weather_info(city)
 
     print("available information:\nname, region, country, lat, lon, tz_id, localtime, temp_c, temp_f, is_day, wind_mph, wind_kph, wind_degree, wind_dir, pressure_mb, pressure_in, humidity, cloud, feelslike_c, feelslike_f, vis_km, vis_miles, uv, quit\n")
-    speak("available information: name, region, country, latitude, longitude, time-zone, localtime, temperature in celcius, temperature in fahrenheit, day or night, wind_mph, wind_kph, wind_degree, wind_direction, pressure_mb, pressure_in, humidity, cloud, feelslike_c, feelslike_f, visibility_km, visibility_miles, uv_radiation, quit")
+    speak("available information: name, region, country, latitude, longitude, time-zone, localtime, temperature in celcius, temperature in fahrenheit, day or night, wind speed in meter per hour, wind speed in kilometer per hour, wind_degree, wind's direction, pressure in mb, pressure in inch, humidity, cloud, feelslike in celcius, feelslike in farenheight, visibility in km, visibility in miles, uv radiation, quit")
 
     while True:
             x = input("What do you want to know about the city ?:")
